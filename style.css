@@ -1,0 +1,31 @@
+:root{
+  --cor-rosa: rgba(252, 65, 205, 0.479);
+  --preto: black;
+  --branco: white;
+  --rosa: pink;
+}
+
+body{
+    background-color: var(--cor-rosa);
+    font-size: 30px ;
+    color:var(--preto);
+    height: 100vw;
+    margin: 10vw;
+}
+header{
+    background-color: var(--branco);
+    text-align: center;
+}
+ h1{
+    color: var(--pink);
+    font-size: 10;
+    font-weight: 10;
+ }
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    margin:20px;
+    padding:50px;
+
+}
